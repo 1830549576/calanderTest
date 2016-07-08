@@ -53,17 +53,7 @@
     NSInteger today = [nowDate day];
     
     
-    NSInteger dayCount = [nowDate numberOfDaysInCurrentMonth];
-    NSInteger weekCount = [nowDate numberOfWeeksInCurrentMonth];
-    
-    NSInteger weekWhat = [nowDate firstWeekDayInMonth];
-    
-    NSInteger weekJI = [nowDate baseWeekly];
-    
-    NSDate *firstMonth = [nowDate baseFirstDayOfCurrentMonth];
-    
-    
-    NSLog(@"===year=%ld,%ld,%ld\n===dayCount==%ld,%ld\n===weekWhat==%ld\n===weekJIJI==%ld\n=====%@",(long)year,(long)month,(long)today,dayCount,weekCount,weekWhat,weekJI,firstMonth);
+
 }
 
 - (void)didReceiveMemoryWarning {
